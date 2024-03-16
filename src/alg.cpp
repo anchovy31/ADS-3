@@ -23,9 +23,8 @@ int cbinsearch(int* arr, int size, int value) {
       size -= beg;
       i = size / 2 + beg;
     } else {
-      beg++; 
       size /= 2;
-      i = size / 2 + beg; 
+      i = size / 2 + beg;
     }
   }
   return 0;
